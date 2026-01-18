@@ -1,21 +1,59 @@
 <section id="contacto">
   <div class="container">
     <h2 class="section-title">
-      <span class="gradient-text">¿Listo para colaborar?</span>
+      <span class="gradient-text">Contacto</span>
     </h2>
     <p class="section-subtitle">
-      Estoy disponible para proyectos freelance y oportunidades de trabajo
-      full-time
+      ¿Tienes un proyecto en mente o una propuesta laboral? Conversemos.
     </p>
-    <div class="contact-card">
-      <div class="contact-icon"><i class="fas fa-envelope"></i></div>
-      <a href="mailto:contacto@ejemplo.com" class="contact-email"
-        >contacto@ejemplo.com</a
-      >
-      <div class="contact-social">
-        <a href="#"><i class="fab fa-github"></i><span>GitHub</span></a>
-        <a href="#"><i class="fab fa-linkedin"></i><span>LinkedIn</span></a>
+
+    <div class="contact-modern">
+      <!-- Info -->
+      <div class="contact-info">
+        <h3>Hablemos</h3>
+        <p>
+          Estoy disponible para proyectos freelance, colaboraciones o posiciones
+          full-time. Escríbeme y te responderé lo antes posible.
+        </p>
+
+        <ul class="contact-list">
+          <li>
+            <i class="fas fa-envelope"></i>
+            <span>contacto@ejemplo.com</span>
+          </li>
+          <li>
+            <i class="fab fa-linkedin"></i>
+            <span>linkedin.com/in/tuusuario</span>
+          </li>
+          <li>
+            <i class="fab fa-github"></i>
+            <span>github.com/tuusuario</span>
+          </li>
+        </ul>
       </div>
+
+      <!-- Formulario -->
+      <form class="contact-form">
+        <div class="form-group">
+          <label>Nombre</label>
+          <input type="text" placeholder="Tu nombre" required />
+        </div>
+
+        <div class="form-group">
+          <label>Email</label>
+          <input type="email" placeholder="tu@email.com" required />
+        </div>
+
+        <div class="form-group">
+          <label>Mensaje</label>
+          <textarea
+            rows="5"
+            placeholder="Cuéntame sobre tu proyecto..."
+            required></textarea>
+        </div>
+
+        <button type="submit" class="btn btn-primary"> Enviar mensaje </button>
+      </form>
     </div>
   </div>
 </section>
